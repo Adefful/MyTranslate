@@ -136,12 +136,12 @@ namespace MyTranslate
 		{
 		using (StreamWriter sw = File.AppendText("save.txt")) 
 		{
-    		sw.WriteLine(tx1 + "            -            " + tx2);
+    		sw.WriteLine(tx1 + " - " + tx2);
     		sw.Close();
 		}
 		
 		
-		listBox1.Items.Add(tx1 + "            -            " + tx2);
+		listBox1.Items.Add(tx1 + " - " + tx2);
 		
 		}
 	}
